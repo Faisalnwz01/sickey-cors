@@ -7,7 +7,7 @@ app.configure(function() {
 
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
-    originWhitelist: ['https://sickey.netlify.com', 'https://www.sickey.io', 'https://sickey.io'], // Allow all origins
+    originWhitelist: ['https://sickey.netlify.com', 'https://www.sickey.io', 'https://sickey.io', 'http://localhost:4200'], // Allow all origins
     removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, function() {
     console.log('Running CORS Anywhere on ' + host + ':' + port);
