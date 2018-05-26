@@ -13,7 +13,7 @@ cors_proxy.createServer({
         'http://localhost:8100',
         '', 
         'https://akount.netlify.com',
-        'https://*.akount.netlify.com'], // Allow all origins
+        'https://*-akount.netlify.com'], // Allow all origins
     removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, function() {
     console.log('Running CORS Anywhere on ' + host + ':' + port);
