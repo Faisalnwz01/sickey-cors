@@ -11,7 +11,7 @@ cors_proxy.createServer({
         'https://dev.sickey.io',
         'http://localhost:4200',
         'http://localhost:8100',
-        'http://akount.io/',
+        'http://akount.io',
         '', 
         'https://akount.netlify.com',
         'https://5b08ed5ab13fb1517f119adf--akount.netlify.com'], // Allow all origins
